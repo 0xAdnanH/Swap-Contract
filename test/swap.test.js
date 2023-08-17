@@ -3,19 +3,18 @@ const { ethers } = require("hardhat");
 
 let swapContract;
 let tokenContract;
+let tokenContract2;
 let NFTcontract;
-let token1Contract;
 let tokenOwner;
 let nftOwner;
 
 before(async () => {
   [tokenOwner, nftOwner] = await ethers.getSigners();
   const tokenFactory = await ethers.getContractFactory("BaseToken");
-  const tokenFactory1 = await ethers.getContractFactory("BaseToken1");
   const NFTFactory = await ethers.getContractFactory("BaseNFT");
   const swapfactory = await ethers.getContractFactory("SwapContract");
   tokenContract = await tokenFactory.deploy("token", "USDC");
-  token1Contract = await tokenFactory1.deploy("token1", "MATIC");
+  tokenContract2 = await tokenFactory.deploy("polygon", "MATIC");
   NFTcontract = await NFTFactory.deploy("Non-Fungible-Tokens", "NFT");
   swapContract = await swapfactory.deploy();
 });
@@ -61,7 +60,7 @@ describe("Swap Function Test", () => {
     await NFTcontract.connect(nftOwner).approve(swapContract, 25);
     await swapContract
       .connect(nftOwner)
-      .nftToSell(25, NFTcontract, 100, token1Contract);
+      .nftToSell(25, NFTcontract, 100, tokenContract2);
 
     await expect(
       swapContract.connect(tokenOwner).swap(25, NFTcontract, tokenContract, 100)
