@@ -9,9 +9,7 @@ module.exports = {
       live: true,
       chainId: 80001,
       url: "https://rpc-mumbai.maticvigil.com",
-      accounts: [
-        "8e61e7662cc2bb10af0f30a4c8f284d0b4bdde2e1502574802eddbc6ace47aff",
-      ],
+      accounts: [],
     },
   },
   namedAccounts: {
@@ -20,12 +18,12 @@ module.exports = {
 
   etherscan: {
     apiKey: {
-      polygonMumbai: "CCSKPAJJ874Y2Z537J4SFISNAP5C65PYP8",
+      polygonMumbai: "",
     },
   },
 
   polygonscan: {
-    apiKey: "CCSKPAJJ874Y2Z537J4SFISNAP5C65PYP8",
+    apiKey: "",
     customChains: [
       {
         network: "polygonscan",
