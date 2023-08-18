@@ -16,7 +16,7 @@ The primary goal of the Token-NFT Swap project is to:
 
 - **Deployment and Verification on Mumbai Polygon Testnet:** The project has been deployed and verified on the Mumbai Polygon testnet. You can find the verified contract address on PolygonScan at the following link: [Mumbai Polygon Testnet Contract](https://mumbai.polygonscan.com/address/0x4b602F87C2E13F642486B50FAD908c7C9f15E72B)
 
-- **Swapping Process:**
+- **Swapping ERC20-ERC721 Process:**
 
   1. The NFT owner registers the NFT for sale with a specified token amount in the Swap Contract.
   2. The NFT owner approves the Swap Contract to handle the NFT.
