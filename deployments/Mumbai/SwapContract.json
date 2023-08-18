@@ -1,0 +1,204 @@
+{
+  "address": "0x4b602F87C2E13F642486B50FAD908c7C9f15E72B",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "nftPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_tokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_nftAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_price",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_tokenAddress",
+          "type": "address"
+        }
+      ],
+      "name": "nftToSell",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_tokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_nftAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_tokenAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_tokenAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "swap",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xd4354df5a19dd7e168db3fe8e5b60fcab151e24ad5ddf935fe36b4904be1f266",
+  "receipt": {
+    "to": null,
+    "from": "0xF849A096130f6e9Dd89D2BDb99f8fc266A22b674",
+    "contractAddress": "0x4b602F87C2E13F642486B50FAD908c7C9f15E72B",
+    "transactionIndex": 0,
+    "gasUsed": "632943",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000020000000800000002000000000000000000000000008000000000000000000000000000000000000000000000000000000000800000000000000000000100000000000000000020000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000800000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000000000000000100000000000000000000000000080000000000000000000000000000000000000000000100000",
+    "blockHash": "0xbc64ca85cf23d4e06e8f46d15e1c3c4f94f14e0dec0f496ce4c724d76cba5962",
+    "transactionHash": "0xd4354df5a19dd7e168db3fe8e5b60fcab151e24ad5ddf935fe36b4904be1f266",
+    "logs": [
+      {
+        "transactionIndex": 0,
+        "blockNumber": 39120120,
+        "transactionHash": "0xd4354df5a19dd7e168db3fe8e5b60fcab151e24ad5ddf935fe36b4904be1f266",
+        "address": "0x0000000000000000000000000000000000001010",
+        "topics": [
+          "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63",
+          "0x0000000000000000000000000000000000000000000000000000000000001010",
+          "0x000000000000000000000000f849a096130f6e9dd89d2bdb99f8fc266a22b674",
+          "0x0000000000000000000000005082f249cdb2f2c1ee035e4f423c46ea2dab3ab1"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000000e0ddd49b34111000000000000000000000000000000000000000000000000006f05b59d3b2000000000000000000000000000000000000000000000000002d80ef210e6f3dfeb4000000000000000000000000000000000000000000000000060f7d85387deef000000000000000000000000000000000000000000000002d81cffee30a720fc4",
+        "logIndex": 0,
+        "blockHash": "0xbc64ca85cf23d4e06e8f46d15e1c3c4f94f14e0dec0f496ce4c724d76cba5962"
+      }
+    ],
+    "blockNumber": 39120120,
+    "cumulativeGasUsed": "632943",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "545f1ff0d4b957b1b515bcd057c16070",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"nftPrice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"_nftAddress\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"_tokenAddress\",\"type\":\"address\"}],\"name\":\"nftToSell\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"_nftAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_tokenAddress\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenAmount\",\"type\":\"uint256\"}],\"name\":\"swap\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"This contract facilitates the swapping of ERC721 tokens for ERC20 tokens.\",\"kind\":\"dev\",\"methods\":{\"nftToSell(uint256,address,uint256,address)\":{\"details\":\"Allows an owner of an ERC721 token to set its selling price.\",\"params\":{\"_nftAddress\":\"The address of the ERC721 contract.\",\"_price\":\"The price in ERC20 tokens at which the ERC721 token will be sold.\",\"_tokenAddress\":\"The address of the ERC20 token used for pricing.\",\"_tokenId\":\"The ID of the ERC721 token.\"}},\"swap(uint256,address,address,uint256)\":{\"details\":\"Allows a user to swap ERC721 tokens for ERC20 tokens based on the set price._tokenAmount parameter was added to avoid Front running.\",\"params\":{\"_nftAddress\":\"The address of the ERC721 contract.\",\"_tokenAddress\":\"The address of the ERC20 token used for swapping.\",\"_tokenAmount\":\"The amount of ERC20 tokens required for the swap.\",\"_tokenId\":\"The ID of the ERC721 token to be swapped.\"}}},\"title\":\"SwapContract\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/swap.sol\":\"SwapContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v4.9.0) (token/ERC20/IERC20.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Interface of the ERC20 standard as defined in the EIP.\\n */\\ninterface IERC20 {\\n    /**\\n     * @dev Emitted when `value` tokens are moved from one account (`from`) to\\n     * another (`to`).\\n     *\\n     * Note that `value` may be zero.\\n     */\\n    event Transfer(address indexed from, address indexed to, uint256 value);\\n\\n    /**\\n     * @dev Emitted when the allowance of a `spender` for an `owner` is set by\\n     * a call to {approve}. `value` is the new allowance.\\n     */\\n    event Approval(address indexed owner, address indexed spender, uint256 value);\\n\\n    /**\\n     * @dev Returns the amount of tokens in existence.\\n     */\\n    function totalSupply() external view returns (uint256);\\n\\n    /**\\n     * @dev Returns the amount of tokens owned by `account`.\\n     */\\n    function balanceOf(address account) external view returns (uint256);\\n\\n    /**\\n     * @dev Moves `amount` tokens from the caller's account to `to`.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transfer(address to, uint256 amount) external returns (bool);\\n\\n    /**\\n     * @dev Returns the remaining number of tokens that `spender` will be\\n     * allowed to spend on behalf of `owner` through {transferFrom}. This is\\n     * zero by default.\\n     *\\n     * This value changes when {approve} or {transferFrom} are called.\\n     */\\n    function allowance(address owner, address spender) external view returns (uint256);\\n\\n    /**\\n     * @dev Sets `amount` as the allowance of `spender` over the caller's tokens.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * IMPORTANT: Beware that changing an allowance with this method brings the risk\\n     * that someone may use both the old and the new allowance by unfortunate\\n     * transaction ordering. One possible solution to mitigate this race\\n     * condition is to first reduce the spender's allowance to 0 and set the\\n     * desired value afterwards:\\n     * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729\\n     *\\n     * Emits an {Approval} event.\\n     */\\n    function approve(address spender, uint256 amount) external returns (bool);\\n\\n    /**\\n     * @dev Moves `amount` tokens from `from` to `to` using the\\n     * allowance mechanism. `amount` is then deducted from the caller's\\n     * allowance.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transferFrom(address from, address to, uint256 amount) external returns (bool);\\n}\\n\",\"keccak256\":\"0x287b55befed2961a7eabd7d7b1b2839cbca8a5b80ef8dcbb25ed3d4c2002c305\",\"license\":\"MIT\"},\"@openzeppelin/contracts/token/ERC721/IERC721.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v4.9.0) (token/ERC721/IERC721.sol)\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"../../utils/introspection/IERC165.sol\\\";\\n\\n/**\\n * @dev Required interface of an ERC721 compliant contract.\\n */\\ninterface IERC721 is IERC165 {\\n    /**\\n     * @dev Emitted when `tokenId` token is transferred from `from` to `to`.\\n     */\\n    event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);\\n\\n    /**\\n     * @dev Emitted when `owner` enables `approved` to manage the `tokenId` token.\\n     */\\n    event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId);\\n\\n    /**\\n     * @dev Emitted when `owner` enables or disables (`approved`) `operator` to manage all of its assets.\\n     */\\n    event ApprovalForAll(address indexed owner, address indexed operator, bool approved);\\n\\n    /**\\n     * @dev Returns the number of tokens in ``owner``'s account.\\n     */\\n    function balanceOf(address owner) external view returns (uint256 balance);\\n\\n    /**\\n     * @dev Returns the owner of the `tokenId` token.\\n     *\\n     * Requirements:\\n     *\\n     * - `tokenId` must exist.\\n     */\\n    function ownerOf(uint256 tokenId) external view returns (address owner);\\n\\n    /**\\n     * @dev Safely transfers `tokenId` token from `from` to `to`.\\n     *\\n     * Requirements:\\n     *\\n     * - `from` cannot be the zero address.\\n     * - `to` cannot be the zero address.\\n     * - `tokenId` token must exist and be owned by `from`.\\n     * - If the caller is not `from`, it must be approved to move this token by either {approve} or {setApprovalForAll}.\\n     * - If `to` refers to a smart contract, it must implement {IERC721Receiver-onERC721Received}, which is called upon a safe transfer.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function safeTransferFrom(address from, address to, uint256 tokenId, bytes calldata data) external;\\n\\n    /**\\n     * @dev Safely transfers `tokenId` token from `from` to `to`, checking first that contract recipients\\n     * are aware of the ERC721 protocol to prevent tokens from being forever locked.\\n     *\\n     * Requirements:\\n     *\\n     * - `from` cannot be the zero address.\\n     * - `to` cannot be the zero address.\\n     * - `tokenId` token must exist and be owned by `from`.\\n     * - If the caller is not `from`, it must have been allowed to move this token by either {approve} or {setApprovalForAll}.\\n     * - If `to` refers to a smart contract, it must implement {IERC721Receiver-onERC721Received}, which is called upon a safe transfer.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function safeTransferFrom(address from, address to, uint256 tokenId) external;\\n\\n    /**\\n     * @dev Transfers `tokenId` token from `from` to `to`.\\n     *\\n     * WARNING: Note that the caller is responsible to confirm that the recipient is capable of receiving ERC721\\n     * or else they may be permanently lost. Usage of {safeTransferFrom} prevents loss, though the caller must\\n     * understand this adds an external call which potentially creates a reentrancy vulnerability.\\n     *\\n     * Requirements:\\n     *\\n     * - `from` cannot be the zero address.\\n     * - `to` cannot be the zero address.\\n     * - `tokenId` token must be owned by `from`.\\n     * - If the caller is not `from`, it must be approved to move this token by either {approve} or {setApprovalForAll}.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transferFrom(address from, address to, uint256 tokenId) external;\\n\\n    /**\\n     * @dev Gives permission to `to` to transfer `tokenId` token to another account.\\n     * The approval is cleared when the token is transferred.\\n     *\\n     * Only a single account can be approved at a time, so approving the zero address clears previous approvals.\\n     *\\n     * Requirements:\\n     *\\n     * - The caller must own the token or be an approved operator.\\n     * - `tokenId` must exist.\\n     *\\n     * Emits an {Approval} event.\\n     */\\n    function approve(address to, uint256 tokenId) external;\\n\\n    /**\\n     * @dev Approve or remove `operator` as an operator for the caller.\\n     * Operators can call {transferFrom} or {safeTransferFrom} for any token owned by the caller.\\n     *\\n     * Requirements:\\n     *\\n     * - The `operator` cannot be the caller.\\n     *\\n     * Emits an {ApprovalForAll} event.\\n     */\\n    function setApprovalForAll(address operator, bool approved) external;\\n\\n    /**\\n     * @dev Returns the account approved for `tokenId` token.\\n     *\\n     * Requirements:\\n     *\\n     * - `tokenId` must exist.\\n     */\\n    function getApproved(uint256 tokenId) external view returns (address operator);\\n\\n    /**\\n     * @dev Returns if the `operator` is allowed to manage all of the assets of `owner`.\\n     *\\n     * See {setApprovalForAll}\\n     */\\n    function isApprovedForAll(address owner, address operator) external view returns (bool);\\n}\\n\",\"keccak256\":\"0x5bce51e11f7d194b79ea59fe00c9e8de9fa2c5530124960f29a24d4c740a3266\",\"license\":\"MIT\"},\"@openzeppelin/contracts/utils/introspection/IERC165.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts v4.4.1 (utils/introspection/IERC165.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Interface of the ERC165 standard, as defined in the\\n * https://eips.ethereum.org/EIPS/eip-165[EIP].\\n *\\n * Implementers can declare support of contract interfaces, which can then be\\n * queried by others ({ERC165Checker}).\\n *\\n * For an implementation, see {ERC165}.\\n */\\ninterface IERC165 {\\n    /**\\n     * @dev Returns true if this contract implements the interface defined by\\n     * `interfaceId`. See the corresponding\\n     * https://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[EIP section]\\n     * to learn more about how these ids are created.\\n     *\\n     * This function call must use less than 30 000 gas.\\n     */\\n    function supportsInterface(bytes4 interfaceId) external view returns (bool);\\n}\\n\",\"keccak256\":\"0x447a5f3ddc18419d41ff92b3773fb86471b1db25773e07f877f548918a185bf1\",\"license\":\"MIT\"},\"contracts/swap.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.9;\\nimport \\\"@openzeppelin/contracts/token/ERC20/IERC20.sol\\\";\\nimport \\\"@openzeppelin/contracts/token/ERC721/IERC721.sol\\\";\\n\\n/**\\n * @title SwapContract\\n * @dev This contract facilitates the swapping of ERC721 tokens for ERC20 tokens.\\n */\\ncontract SwapContract {\\n    // Mapping to store the price of ERC721 tokens for different token addresses and IDs\\n    mapping(address => mapping(uint256 => mapping(address => uint256)))\\n        public nftPrice;\\n\\n    /**\\n     * @dev Allows an owner of an ERC721 token to set its selling price.\\n     * @param _tokenId The ID of the ERC721 token.\\n     * @param _nftAddress The address of the ERC721 contract.\\n     * @param _price The price in ERC20 tokens at which the ERC721 token will be sold.\\n     * @param _tokenAddress The address of the ERC20 token used for pricing.\\n     */\\n    function nftToSell(\\n        uint256 _tokenId,\\n        address _nftAddress,\\n        uint256 _price,\\n        address _tokenAddress\\n    ) external {\\n        require(\\n            IERC721(_nftAddress).ownerOf(_tokenId) == msg.sender,\\n            \\\"Not owner of this token\\\"\\n        );\\n\\n        nftPrice[_nftAddress][_tokenId][_tokenAddress] = _price;\\n    }\\n\\n    /**\\n     * @dev Allows a user to swap ERC721 tokens for ERC20 tokens based on the set price.\\n     * @dev _tokenAmount parameter was added to avoid Front running.\\n     * @param _tokenId The ID of the ERC721 token to be swapped.\\n     * @param _nftAddress The address of the ERC721 contract.\\n     * @param _tokenAddress The address of the ERC20 token used for swapping.\\n     * @param _tokenAmount The amount of ERC20 tokens required for the swap.\\n     */\\n    function swap(\\n        uint256 _tokenId,\\n        address _nftAddress,\\n        address _tokenAddress,\\n        uint256 _tokenAmount\\n    ) external {\\n        require(\\n            IERC20(_tokenAddress).balanceOf(msg.sender) >= _tokenAmount,\\n            \\\"Insufficient balance\\\"\\n        );\\n        require(\\n            _tokenAmount == nftPrice[_nftAddress][_tokenId][_tokenAddress] &&\\n                _tokenAmount != 0,\\n            \\\"Token amount is zero or not matching the price\\\"\\n        );\\n        address ownerOfTokenId = IERC721(_nftAddress).ownerOf(_tokenId);\\n        IERC20(_tokenAddress).transferFrom(\\n            msg.sender,\\n            ownerOfTokenId,\\n            _tokenAmount\\n        );\\n        IERC721(_nftAddress).transferFrom(ownerOfTokenId, msg.sender, _tokenId);\\n    }\\n}\\n\",\"keccak256\":\"0x4723b40388e0759d68501d35db994102313afd86395e0c37abe5f278f5727fb4\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610a85806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806338ee57df1461004657806357461f7a1461007657806370085be014610092575b600080fd5b610060600480360381019061005b919061063f565b6100ae565b60405161006d91906106a1565b60405180910390f35b610090600480360381019061008b91906106bc565b6100e0565b005b6100ac60048036038101906100a79190610723565b61026d565b005b600060205282600052604060002060205281600052604060002060205280600052604060002060009250925050505481565b3373ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff16636352211e866040518263ffffffff1660e01b815260040161013091906106a1565b60206040518083038186803b15801561014857600080fd5b505afa15801561015c573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610180919061079f565b73ffffffffffffffffffffffffffffffffffffffff16146101d6576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101cd90610829565b60405180910390fd5b816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600086815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050505050565b808273ffffffffffffffffffffffffffffffffffffffff166370a08231336040518263ffffffff1660e01b81526004016102a79190610858565b60206040518083038186803b1580156102bf57600080fd5b505afa1580156102d3573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906102f79190610888565b1015610338576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161032f90610901565b60405180910390fd5b6000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600085815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054811480156103d4575060008114155b610413576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161040a90610993565b60405180910390fd5b60008373ffffffffffffffffffffffffffffffffffffffff16636352211e866040518263ffffffff1660e01b815260040161044e91906106a1565b60206040518083038186803b15801561046657600080fd5b505afa15801561047a573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061049e919061079f565b90508273ffffffffffffffffffffffffffffffffffffffff166323b872dd3383856040518463ffffffff1660e01b81526004016104dd939291906109b3565b602060405180830381600087803b1580156104f757600080fd5b505af115801561050b573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061052f9190610a22565b508373ffffffffffffffffffffffffffffffffffffffff166323b872dd8233886040518463ffffffff1660e01b815260040161056d939291906109b3565b600060405180830381600087803b15801561058757600080fd5b505af115801561059b573d6000803e3d6000fd5b505050505050505050565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006105d6826105ab565b9050919050565b6105e6816105cb565b81146105f157600080fd5b50565b600081359050610603816105dd565b92915050565b6000819050919050565b61061c81610609565b811461062757600080fd5b50565b60008135905061063981610613565b92915050565b600080600060608486031215610658576106576105a6565b5b6000610666868287016105f4565b93505060206106778682870161062a565b9250506040610688868287016105f4565b9150509250925092565b61069b81610609565b82525050565b60006020820190506106b66000830184610692565b92915050565b600080600080608085870312156106d6576106d56105a6565b5b60006106e48782880161062a565b94505060206106f5878288016105f4565b93505060406107068782880161062a565b9250506060610717878288016105f4565b91505092959194509250565b6000806000806080858703121561073d5761073c6105a6565b5b600061074b8782880161062a565b945050602061075c878288016105f4565b935050604061076d878288016105f4565b925050606061077e8782880161062a565b91505092959194509250565b600081519050610799816105dd565b92915050565b6000602082840312156107b5576107b46105a6565b5b60006107c38482850161078a565b91505092915050565b600082825260208201905092915050565b7f4e6f74206f776e6572206f66207468697320746f6b656e000000000000000000600082015250565b60006108136017836107cc565b915061081e826107dd565b602082019050919050565b6000602082019050818103600083015261084281610806565b9050919050565b610852816105cb565b82525050565b600060208201905061086d6000830184610849565b92915050565b60008151905061088281610613565b92915050565b60006020828403121561089e5761089d6105a6565b5b60006108ac84828501610873565b91505092915050565b7f496e73756666696369656e742062616c616e6365000000000000000000000000600082015250565b60006108eb6014836107cc565b91506108f6826108b5565b602082019050919050565b6000602082019050818103600083015261091a816108de565b9050919050565b7f546f6b656e20616d6f756e74206973207a65726f206f72206e6f74206d61746360008201527f68696e6720746865207072696365000000000000000000000000000000000000602082015250565b600061097d602e836107cc565b915061098882610921565b604082019050919050565b600060208201905081810360008301526109ac81610970565b9050919050565b60006060820190506109c86000830186610849565b6109d56020830185610849565b6109e26040830184610692565b949350505050565b60008115159050919050565b6109ff816109ea565b8114610a0a57600080fd5b50565b600081519050610a1c816109f6565b92915050565b600060208284031215610a3857610a376105a6565b5b6000610a4684828501610a0d565b9150509291505056fea2646970667358221220fdb8347cfb47800f5bc06b6fa872878711b41881623e2b7f5c386d849e3b287364736f6c63430008090033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806338ee57df1461004657806357461f7a1461007657806370085be014610092575b600080fd5b610060600480360381019061005b919061063f565b6100ae565b60405161006d91906106a1565b60405180910390f35b610090600480360381019061008b91906106bc565b6100e0565b005b6100ac60048036038101906100a79190610723565b61026d565b005b600060205282600052604060002060205281600052604060002060205280600052604060002060009250925050505481565b3373ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff16636352211e866040518263ffffffff1660e01b815260040161013091906106a1565b60206040518083038186803b15801561014857600080fd5b505afa15801561015c573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610180919061079f565b73ffffffffffffffffffffffffffffffffffffffff16146101d6576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101cd90610829565b60405180910390fd5b816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600086815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050505050565b808273ffffffffffffffffffffffffffffffffffffffff166370a08231336040518263ffffffff1660e01b81526004016102a79190610858565b60206040518083038186803b1580156102bf57600080fd5b505afa1580156102d3573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906102f79190610888565b1015610338576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161032f90610901565b60405180910390fd5b6000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600085815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054811480156103d4575060008114155b610413576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161040a90610993565b60405180910390fd5b60008373ffffffffffffffffffffffffffffffffffffffff16636352211e866040518263ffffffff1660e01b815260040161044e91906106a1565b60206040518083038186803b15801561046657600080fd5b505afa15801561047a573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061049e919061079f565b90508273ffffffffffffffffffffffffffffffffffffffff166323b872dd3383856040518463ffffffff1660e01b81526004016104dd939291906109b3565b602060405180830381600087803b1580156104f757600080fd5b505af115801561050b573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061052f9190610a22565b508373ffffffffffffffffffffffffffffffffffffffff166323b872dd8233886040518463ffffffff1660e01b815260040161056d939291906109b3565b600060405180830381600087803b15801561058757600080fd5b505af115801561059b573d6000803e3d6000fd5b505050505050505050565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006105d6826105ab565b9050919050565b6105e6816105cb565b81146105f157600080fd5b50565b600081359050610603816105dd565b92915050565b6000819050919050565b61061c81610609565b811461062757600080fd5b50565b60008135905061063981610613565b92915050565b600080600060608486031215610658576106576105a6565b5b6000610666868287016105f4565b93505060206106778682870161062a565b9250506040610688868287016105f4565b9150509250925092565b61069b81610609565b82525050565b60006020820190506106b66000830184610692565b92915050565b600080600080608085870312156106d6576106d56105a6565b5b60006106e48782880161062a565b94505060206106f5878288016105f4565b93505060406107068782880161062a565b9250506060610717878288016105f4565b91505092959194509250565b6000806000806080858703121561073d5761073c6105a6565b5b600061074b8782880161062a565b945050602061075c878288016105f4565b935050604061076d878288016105f4565b925050606061077e8782880161062a565b91505092959194509250565b600081519050610799816105dd565b92915050565b6000602082840312156107b5576107b46105a6565b5b60006107c38482850161078a565b91505092915050565b600082825260208201905092915050565b7f4e6f74206f776e6572206f66207468697320746f6b656e000000000000000000600082015250565b60006108136017836107cc565b915061081e826107dd565b602082019050919050565b6000602082019050818103600083015261084281610806565b9050919050565b610852816105cb565b82525050565b600060208201905061086d6000830184610849565b92915050565b60008151905061088281610613565b92915050565b60006020828403121561089e5761089d6105a6565b5b60006108ac84828501610873565b91505092915050565b7f496e73756666696369656e742062616c616e6365000000000000000000000000600082015250565b60006108eb6014836107cc565b91506108f6826108b5565b602082019050919050565b6000602082019050818103600083015261091a816108de565b9050919050565b7f546f6b656e20616d6f756e74206973207a65726f206f72206e6f74206d61746360008201527f68696e6720746865207072696365000000000000000000000000000000000000602082015250565b600061097d602e836107cc565b915061098882610921565b604082019050919050565b600060208201905081810360008301526109ac81610970565b9050919050565b60006060820190506109c86000830186610849565b6109d56020830185610849565b6109e26040830184610692565b949350505050565b60008115159050919050565b6109ff816109ea565b8114610a0a57600080fd5b50565b600081519050610a1c816109f6565b92915050565b600060208284031215610a3857610a376105a6565b5b6000610a4684828501610a0d565b9150509291505056fea2646970667358221220fdb8347cfb47800f5bc06b6fa872878711b41881623e2b7f5c386d849e3b287364736f6c63430008090033",
+  "devdoc": {
+    "details": "This contract facilitates the swapping of ERC721 tokens for ERC20 tokens.",
+    "kind": "dev",
+    "methods": {
+      "nftToSell(uint256,address,uint256,address)": {
+        "details": "Allows an owner of an ERC721 token to set its selling price.",
+        "params": {
+          "_nftAddress": "The address of the ERC721 contract.",
+          "_price": "The price in ERC20 tokens at which the ERC721 token will be sold.",
+          "_tokenAddress": "The address of the ERC20 token used for pricing.",
+          "_tokenId": "The ID of the ERC721 token."
+        }
+      },
+      "swap(uint256,address,address,uint256)": {
+        "details": "Allows a user to swap ERC721 tokens for ERC20 tokens based on the set price._tokenAmount parameter was added to avoid Front running.",
+        "params": {
+          "_nftAddress": "The address of the ERC721 contract.",
+          "_tokenAddress": "The address of the ERC20 token used for swapping.",
+          "_tokenAmount": "The amount of ERC20 tokens required for the swap.",
+          "_tokenId": "The ID of the ERC721 token to be swapped."
+        }
+      }
+    },
+    "title": "SwapContract",
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3444,
+        "contract": "contracts/swap.sol:SwapContract",
+        "label": "nftPrice",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_mapping(t_address,t_mapping(t_uint256,t_mapping(t_address,t_uint256)))"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_mapping(t_address,t_mapping(t_uint256,t_mapping(t_address,t_uint256)))": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => mapping(uint256 => mapping(address => uint256)))",
+        "numberOfBytes": "32",
+        "value": "t_mapping(t_uint256,t_mapping(t_address,t_uint256))"
+      },
+      "t_mapping(t_address,t_uint256)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => uint256)",
+        "numberOfBytes": "32",
+        "value": "t_uint256"
+      },
+      "t_mapping(t_uint256,t_mapping(t_address,t_uint256))": {
+        "encoding": "mapping",
+        "key": "t_uint256",
+        "label": "mapping(uint256 => mapping(address => uint256))",
+        "numberOfBytes": "32",
+        "value": "t_mapping(t_address,t_uint256)"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
